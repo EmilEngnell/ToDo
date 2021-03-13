@@ -15,6 +15,6 @@ namespace ToDo.Model
             last = lastName;
         }
 
-        private string personID;
+        private readonly int personID;
     }
 }
