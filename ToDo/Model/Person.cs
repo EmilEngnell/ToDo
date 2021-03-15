@@ -6,6 +6,7 @@ namespace ToDo.Model
 {
     class Person
     {
+        private readonly int personID;
         private string first;
         private string last;
 
@@ -15,6 +16,8 @@ namespace ToDo.Model
             last = lastName;
         }
 
-        private readonly int personID;
+        
+
+      
     }
 }
